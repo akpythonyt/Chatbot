@@ -24,7 +24,3 @@ steps:
     pip install chatterbot
   displayName: 'Install dependencies'
 
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
